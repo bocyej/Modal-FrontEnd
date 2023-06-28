@@ -1,0 +1,167 @@
+/* FONTS */
+@font-face {
+    font-family: nfs-font;
+    src: url(fonts/NFS.ttf);
+}
+
+@font-face {
+    font-family: bison-font;
+    src: url(fonts/Bison-Bold_personal-use.ttf);
+}
+
+@font-face {
+    font-family: kyrion-font;
+    src: url(fonts/KyrionPro-Regular.ttf);
+}
+
+
+/* SPACING */
+.padding-right {
+    padding-right: 1300px;
+}
+
+
+/* HEADER */
+#hdr {
+    background-color: #FFFFFF;
+}
+
+#hdr-info {
+    text-align: left;
+    color: #000000;
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+#logo {
+    /* Source: https://www.vecteezy.com/vector-art/623239-auto-car-logo-template-vector-icon */
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    font-family: bison-font;
+    color: #000000;
+    overflow: auto;
+
+}
+
+.navbar a {
+    text-align: center;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: bison-font;
+    margin-right: 25px;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.button-header {
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 25px;
+    font-family: bison-font;
+}
+
+
+/* BODY */
+/* FIRST BODY */
+#ctnt-img {
+    background-image: url("photos/racing-live-background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 700px;
+}
+
+.b1-font {
+    color: #FFFFFF;
+    font-family: nfs-font;
+    font-size: 70px;
+}
+
+.button-body {
+    background-color: #D90429;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: bison-font;
+}
+
+/* SECOND BODY */
+.b2-font {
+    color: #000000;
+    font-family: nfs-font;
+    font-size: 70px;
+}
+
+#second-ctnt-info {
+    background-color: #F0F0F0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+
+/* MODAL */
+::placeholder {
+    color: #000000;
+    text-align: left;
+    font-family: kyrion-font;
+    font-size: 18px;
+}
+
+.modal-content {
+    background: #FFFFFF;
+}
+
+#modal-hdr {
+    background-color: #DEDCDE;
+}
+
+#modal-ftr {
+    background-color: #DEDCDE;
+}
+
+.font-modal-header {
+    color: #000000;
+    text-align: left;
+    font-family: bison-font;
+    font-size: 35px;
+}
+
+.font-modal-body {
+    color: #000000;
+    text-align: left;
+    font-family: kyrion-font;
+    font-size: 20px;
+}
+
+.button-modal {
+    background-color: #D90429;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: bison-font;
+}
+
+
+/* FOOTER */
+#ftr {
+    background-color: #ffffff;
+}
+
+#ftr-info {
+    color: #000000;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
